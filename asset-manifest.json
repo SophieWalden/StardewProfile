@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/StardewProfile/static/css/main.782a92af.css",
+    "main.css": "/StardewProfile/static/css/main.5d28ac41.css",
     "main.js": "/StardewProfile/static/js/main.8a836679.js",
     "static/js/453.778e6e98.chunk.js": "/StardewProfile/static/js/453.778e6e98.chunk.js",
     "static/media/logo.svg": "/StardewProfile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/StardewProfile/index.html",
-    "main.782a92af.css.map": "/StardewProfile/static/css/main.782a92af.css.map",
+    "main.5d28ac41.css.map": "/StardewProfile/static/css/main.5d28ac41.css.map",
     "main.8a836679.js.map": "/StardewProfile/static/js/main.8a836679.js.map",
     "453.778e6e98.chunk.js.map": "/StardewProfile/static/js/453.778e6e98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.782a92af.css",
+    "static/css/main.5d28ac41.css",
     "static/js/main.8a836679.js"
   ]
 }
