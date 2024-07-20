@@ -183,14 +183,15 @@
 }
 
 .table-image{
-  width: 3vw;
-  height: auto;
+  width: auto;
+  height: 6vh;
 }
 
 .icon-column{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .name-column h4{
@@ -199,10 +200,8 @@
 }
 
 .question{
-  height: 30px;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  padding-bottom: 0px;
+  height: 40px;
+
 }
 
 /* Media query for mobile screens */
