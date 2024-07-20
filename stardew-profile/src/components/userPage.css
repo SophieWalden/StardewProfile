@@ -1,0 +1,219 @@
+
+
+.container{
+  color: black;
+
+    border: 1px solid #A7D7F9;
+  margin-right: 15px;
+  background-color: rgba(209,248,255,0.67);
+  height: 100%;
+  margin-bottom: 60px;
+
+  font-size: 13px;
+  color: #15141A;
+
+  color: #202122;
+  direction: ltr;
+  padding: 1em;
+} 
+
+.userPage{
+    
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Adjust the gap between content and infobox as needed */
+
+}
+
+#content {
+  flex: 1;
+}
+
+#user-header{
+  font-weight: normal;
+  font-size: 1.8em;
+  font-family: 'Open Sans',sans-serif;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+.subheader{
+  font-weight: normal;
+  font-size: 1.4em;
+  font-family: 'Open Sans',sans-serif;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+#content p{
+  margin: 0.5em 0;
+  font-size: calc(1em * 1.1);
+    line-height: 1.6;
+}
+
+#profile-picture{
+  width: auto;
+  height: 20vh;
+}
+
+#infobox{
+  border: 12px solid transparent;
+  border-image: url('https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/menu_border.png') 15 stretch;
+  background-color: rgba(255,255,255,0.58);
+  float: right;
+  border-radius: 12px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 20%;
+
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+#infoboxsection {
+  background-color: #03A007;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 5px;
+  border-color: #007448;
+  box-shadow: 0px 1px rgba(0,0,0,0.3);
+  color: white;
+  text-shadow: 0px 2px #00321f;
+  width: 40%;
+  text-align: center;
+}
+
+#infoboxdetail{
+  width: 10vw;
+  padding: 0.2vw;
+  
+}
+
+#infoboxtable{
+  width: 100%
+} 
+
+.nametemplate{
+ display: flex;
+
+ align-items: center;
+ height: 100%;
+  
+  white-space: nowrap;
+  margin-bottom: 5px;
+  
+
+}
+
+.nametemplate a{
+  text-decoration: none;
+}
+
+.image-container,
+#name-header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nametemplate img{
+  width: 1vw;
+  height: auto;
+  margin-right: 0.5vw;
+}
+
+
+
+.question{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.siteTable{
+
+  border: 1px solid rgb(132,174,236);
+  padding: 5px;
+  border-radius: 11px;
+  margin-top: 15px;
+  
+}
+
+.siteTable > * > tr > td {
+  border: 1px solid #8DCAF0;
+  padding: 0.2em;
+  background-color: rgba(255,255,255,0.58);
+}
+
+.siteTable > * > tr > th {
+  background-color: #03A007;
+  text-align: center;
+  border-color: #007448;
+  box-shadow: 0px 1px rgba(0,0,0,0.3);
+  color: white;
+  text-shadow: 0px 2px #00321f;
+}
+
+.siteTable{
+  min-width: 500px;
+  width: 65%;
+  background-color: transparent;
+  border-collapse: separate;
+  color: #202122;
+    margin: 1em 0;
+    font-size: 100%;
+    direction: ltr;
+}
+
+.unsortable{
+  width: 10%;
+}
+
+.tableNameColumn{
+  width: 20%
+}
+
+.table-image{
+  width: 3vw;
+  height: auto;
+}
+
+.icon-column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-column h4{
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+.question{
+  height: 30px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .userPage {
+    flex-direction: column;
+  }
+
+  #infobox {
+    order: -1; /* Place the infobox at the beginning */
+    width: 95%; /* Make it take the full width */
+    margin: 0 0 20px 0; /* Adjust margins as needed */
+  }
+}

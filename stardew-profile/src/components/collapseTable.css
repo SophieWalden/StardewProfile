@@ -1,0 +1,66 @@
+.collapsible-table {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+
+    
+    padding: 5px;
+    border-radius: 11px;
+    margin-top: 15px;
+    width: 500px;
+  }
+  
+  .collapsible-header {
+
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .collapsible-header h3 {
+    margin: 0;
+    font-size: 1.25em;
+  }
+  
+  .collapsible-header span {
+    font-size: 1.25em;
+  }
+  
+  .collapsible-content {
+    padding: 10px;
+  }
+  
+  .collapsible-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .table-header-title{
+    width: 80%;
+    flex: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0645ad;
+  }
+
+  .table-expand{
+    flex: 1;
+  }
+
+  .collpase-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collpase-header img{
+    width: 2vw;
+    height: auto;
+  }
+  

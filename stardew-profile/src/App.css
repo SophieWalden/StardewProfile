@@ -1,0 +1,46 @@
+
+body{
+  background-image: url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+
+}
+
+.App{
+  display: flex;
+  color: white;
+}
+
+#leftContent{
+  width: 12vw;
+  height: 100%;
+}
+
+#navigationPages{
+  width: 88vw;
+  height: 10vh;
+
+
+}
+
+#navigationLinks{
+  display: flex;
+  width: 80vw;
+  height: 5vh;
+  font-size: 0.5vw;
+  justify-content: space-evenly;
+}
+
+
+
+
+.wiki-image{
+  width: 9vw;
+  height: 11vh;
+}
+
