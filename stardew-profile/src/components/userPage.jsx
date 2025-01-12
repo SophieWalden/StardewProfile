@@ -160,10 +160,11 @@ function UserPage(props) {
             <li><p>August 22nd, 2004 (1.0): Introduced</p></li>
             <li><p>June, 2021: Graduated Highschool</p></li>
             <li>  <p>August 2021: Went off to University of Maine</p></li>
-            <li> <p>September, 2021: Hired by the campus's premiere lab: ASCC (Still working there)</p></li>
+            <li> <p>September, 2021: Hired by the campus's premiere lab: ASCC</p></li>
             <li>  <p>Summer, 2022: Took part in Codepaths Tech Interview Prep Class</p></li>
             <li>  <p>Summer, 2023: Came back to Codepath in a Teachers Assistant role</p></li>
             <li>  <p>Summer, 2024: Summer Internship at Tyler Technologies</p></li>
+            <li>  <p>Sept-Present, 2024-2025: Continued Internship throught the school year</p></li>
           </ul>
 
         </div>

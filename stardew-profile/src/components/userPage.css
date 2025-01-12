@@ -185,6 +185,7 @@
 .table-image{
   width: auto;
   height: 6vh;
+  border-radius: 15px;
 }
 
 .icon-column{
